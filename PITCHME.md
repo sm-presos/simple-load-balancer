@@ -5,7 +5,7 @@
 ---
 
 ### My Simple Load Balancer
-@snap[west span-45]
+@snap[west span-45 text-09]
 # Simple Load Balancer
 @snapend
 Load Balancers have different strategies for distributing the load across a set of backends.
