@@ -11,7 +11,9 @@
 Load Balancers have different strategies for distributing the load across a set of backends.
 
 ---
-
+@snap[west span-45]
+#### Load Balancers have different strategies for distributing the load across a set of backends.
+@snapend
 @snap[north-east span-60]
 @box[bg-purple text-white](Round Robin.# distribute load equally, assumes all backends have the same processing power.)
 @snapend
