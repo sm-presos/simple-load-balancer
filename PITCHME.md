@@ -5,14 +5,14 @@
 ---
 
 ### My Simple Load Balancer
-
+@snap[text-08]
 Load Balancers have different strategies for distributing the load across a set of backends.
 - Round Robin distribute load equally, assumes all backends have the same processing power
 
 - Weighted Round Robin - Additional weights can be given considering the backend’s processing power
 
 - Least Connections - Load is distributed to the servers with least active connections
-
+@snapend
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
