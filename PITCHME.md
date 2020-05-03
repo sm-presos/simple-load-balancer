@@ -5,7 +5,7 @@
 ---
 
 ### My Simple Load Balancer
-@snap[text-08]
+@snap[text-07]
 Load Balancers have different strategies for distributing the load across a set of backends.
 - Round Robin distribute load equally, assumes all backends have the same processing power
 
