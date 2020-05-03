@@ -5,7 +5,7 @@
 ---
 
 ### My Simple Load Balancer
-@snap[text-07]
+@snap[text-06]
 Load Balancers have different strategies for distributing the load across a set of backends.
 @ul[list-square-bullets list-spaced-bullets font-roboto-light](false)
 - Round Robin distribute load equally, assumes all backends have the same processing power
