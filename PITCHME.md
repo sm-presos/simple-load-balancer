@@ -6,7 +6,12 @@
 
 ### My Simple Load Balancer
 
-![IMAGE](assets/img/presentation.png)
+Load Balancers have different strategies for distributing the load across a set of backends.
+- Round Robin distribute load equally, assumes all backends have the same processing power
+- Weighted Round Robin - Additional weights can be given considering the backend’s processing power
+- Least Connections - Load is distributed to the servers with least active connections
+
+This implementation uses RoundRobin algorithm to send requests into set of backends and support retries too.It also performs active cleaning and passive recovery for unhealthy backends. Since its simple it assume if / is reachable for any host its available
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
