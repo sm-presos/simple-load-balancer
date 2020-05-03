@@ -1,6 +1,8 @@
 ##  ** Simple Loadbalancer ** 
 #### in Golang, by smazumder
 ---
+
+---?color=linear-gradient(180deg, white 25%, black 75%)
 @snap[west span-35 text-07]
 Load Balancers have different strategies for distributing the load across a set of backends.
 @snapend
