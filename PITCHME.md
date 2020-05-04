@@ -23,6 +23,8 @@ Load Balancers have different strategies for distributing the load across a set 
  #### Fenced Code Block
 @snapend
 
+### Main structs for SimpleLoadBalancer
+
 ```golang
    // Store information about the backend endpoints
     type Backend struct {
