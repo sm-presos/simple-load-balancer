@@ -15,12 +15,34 @@ Load Balancers have different strategies for distributing the load across a set 
 @box[bg-pink text-white](Least Connections #Load is distributed to the servers with least active connections.)
 @snapend
 
----?color=linear-gradient(180deg, white 25%, black 75%)
+---
+?color=linear-gradient(180deg, white 25%, black 75%)
 @title[Customize Slide Layout]
 
-@snap[west span-55]
-## Customize the Layout
+@snap[north span-100]
+ #### Fenced Code Block
 @snapend
+
+```elixir
+    defmodule GenMetrics.GenStage.Monitor do
+        use GenServer
+
+        alias GenMetrics.GenStage.Manager
+        alias GenMetrics.GenStage.Monitor
+        alias GenMetrics.GenStage.Pipeline
+        alias GenMetrics.GenStage.Window
+        alias GenMetrics.Reporter
+        alias GenMetrics.Utils.Runtime
+
+        @moduledoc false
+        @handle_demand :handle_demand
+        @handle_events :handle_events
+        @handle_call   :handle_call
+        @handle_cast   :handle_cast
+
+        defstruct pipeline: %Pipeline{}, metrics: nil, start: 0, duration: 0
+````
+---
 
 @snap[north-east span-45]
 ![IMAGE](assets/img/presentation.png)
