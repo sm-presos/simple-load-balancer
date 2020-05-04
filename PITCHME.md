@@ -23,24 +23,26 @@ Load Balancers have different strategies for distributing the load across a set 
  #### Fenced Code Block
 @snapend
 
-```elixir
-    defmodule GenMetrics.GenStage.Monitor do
-        use GenServer
+```golang
+   // Store information about the backend endpoints
+    type Backend struct {
+    Url             *url.URL
+    Alive            bool
+    mux             sync.RWMutex
+    ReverseProxy    *httputil.ReverseProxy
+   }
 
-        alias GenMetrics.GenStage.Manager
-        alias GenMetrics.GenStage.Monitor
-        alias GenMetrics.GenStage.Pipeline
-        alias GenMetrics.GenStage.Window
-        alias GenMetrics.Reporter
-        alias GenMetrics.Utils.Runtime
+   const (
+    Attempts  int = iota
+    Retry
+   )   
 
-        @moduledoc false
-        @handle_demand :handle_demand
-        @handle_events :handle_events
-        @handle_call   :handle_call
-        @handle_cast   :handle_cast
-
-        defstruct pipeline: %Pipeline{}, metrics: nil, start: 0, duration: 0
+  // Tracks all the backend endpoints in a slice and has
+  // a counter variable
+   type ServerPool struct {
+      backends    []*Backend
+      current     uint64
+  }
 ````
 ---
 
