@@ -1,6 +1,5 @@
 ##  ** Simple Loadbalancer ** 
 #### in Golang, by smazumder
----
 
 ---?color=linear-gradient(180deg, white 25%, black 75%)
 @snap[west span-35 text-07]
@@ -9,11 +8,9 @@ Load Balancers have different strategies for distributing the load across a set 
 @snap[north-east span-60]
 @box[bg-purple text-white](Round Robin # distribute load equally, assumes all backends have the same processing power.)
 @snapend
-
 @snap[east span-60]
 @box[bg-orange text-white](Weighted Round Robin #Additional weights can be given considering the backend’s processing power.)
 @snapend
-
 @snap[south-east span-60]
 @box[bg-pink text-white](Least Connections #Load is distributed to the servers with least active connections.)
 @snapend
