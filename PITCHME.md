@@ -18,7 +18,7 @@ Load Balancers have different strategies for distributing the load across a set 
 ---?color=linear-gradient(180deg, white 25%, black 75%)
 @title[Customize Slide Layout]
 
-@snap[north span-150 text-black text-10]
+@snap[north span-300 text-black text-10]
  Main structs for SimpleLoadBalancer
 @snapend
 
