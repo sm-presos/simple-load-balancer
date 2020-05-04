@@ -18,8 +18,8 @@ Load Balancers have different strategies for distributing the load across a set 
 ---?color=linear-gradient(180deg, white 25%, black 75%)
 @title[Customize Slide Layout]
 
-@snap[north span-50]
- ##### Main structs for SimpleLoadBalancer
+@snap[north span-50 text-black text-10]
+ Main structs for SimpleLoadBalancer
 @snapend
 
 ```golang
