@@ -15,7 +15,7 @@ Load Balancers have different strategies for distributing the load across a set 
 @box[bg-pink text-white](Least Connections #Load is distributed to the servers with least active connections.)
 @snapend
 
----?color=linear-gradient(180deg, white 25%, black 75%)
+---
 @title[Customize Slide Layout]
 
 @snap[north span-100]
