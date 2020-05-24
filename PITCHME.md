@@ -45,16 +45,7 @@ Load Balancers have different strategies for distributing the load across a set 
 ````
 ---
 
-@snap[north-east span-45]
-![IMAGE](assets/img/presentation.png)
-@snapend
-
-@snap[south span-100]
-Snap Layouts let you create custom slide designs directly within your markdown.
-@snapend
-
----
-@title[Add A Little Imagination]
+@title[Features]
 
 @snap[north-west span-50 text-center]
 #### Engage your Audience
@@ -62,10 +53,11 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
-- You will be amazed
-- What you can achieve
-- With a **little imagination**
-- And GitPitch Markdown
+- Auto-discover backend services using DNS SRV records (common technique in container world)
+- Allocate different load following SRV priority and weight
+- Pooling TCP connections to backends (reusable)
+- Encrypt public traffic with TLS (HTTPS)
+- For fun: benchmark it against other popular LBs (in Go)
 @ulend
 @snapend
 
