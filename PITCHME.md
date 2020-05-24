@@ -47,7 +47,7 @@ Load Balancers have different strategies for distributing the load across a set 
 
 @title[Features]
 
-@snap[west span-55]
+@snap[west]
 @ul[list-spaced-bullets text-14]
 - Auto-discover backend services using DNS SRV records (common technique in container world)
 - Allocate different load following SRV priority and weight
