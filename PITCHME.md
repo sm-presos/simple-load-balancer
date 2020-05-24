@@ -48,13 +48,11 @@ Load Balancers have different strategies for distributing the load across a set 
 @title[Features]
 
 @snap[west]
-@ul[list-spaced-bullets text-14]
 - Auto-discover backend services using DNS SRV records (common technique in container world)
 - Allocate different load following SRV priority and weight
 - Pooling TCP connections to backends (reusable)
 - Encrypt public traffic with TLS (HTTPS)
 - For fun: benchmark it against other popular LBs (in Go)
-@ulend
 @snapend
 ---
 
