@@ -47,12 +47,8 @@ Load Balancers have different strategies for distributing the load across a set 
 
 @title[Features]
 
-@snap[north-west span-50 text-center]
-#### Engage your Audience
-@snapend
-
 @snap[west span-55]
-@ul[list-spaced-bullets text-09]
+@ul[list-spaced-bullets text-14]
 - Auto-discover backend services using DNS SRV records (common technique in container world)
 - Allocate different load following SRV priority and weight
 - Pooling TCP connections to backends (reusable)
@@ -60,15 +56,6 @@ Load Balancers have different strategies for distributing the load across a set 
 - For fun: benchmark it against other popular LBs (in Go)
 @ulend
 @snapend
-
-@snap[east span-45]
-![IMAGE](assets/img/conference.png)
-@snapend
-
-@snap[south span-100 bg-black fragment]
-@img[shadow](assets/img/conference.png)
-@snapend
-
 ---
 
 @snap[north-east span-100 text-pink text-06]
